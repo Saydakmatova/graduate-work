@@ -1,0 +1,12 @@
+body {
+	
+}
+.navbar-brand img {
+	width: 150px;
+}
+.navbar-nav li {
+	padding-right: 15px;
+}
+.nav-link {
+	font-size: 1.1em;!important </*более важный*/>
+}
