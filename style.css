@@ -6,10 +6,9 @@
 .navbar-nav li {
 	font-family: 'Rubik', sans-serif;
 	letter-spacing: 1px;
-	font-size: 18px;
+	font-size: 16px;
 	margin: 10px;
-	
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 .navbar-nav {
 	margin-right: 100px;
