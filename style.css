@@ -1,12 +1,16 @@
-body {
-	
-}
+
 .navbar-brand img {
-	width: 150px;
+	width: 120px;
+	margin-left: 100px;
 }
 .navbar-nav li {
-	padding-right: 15px;
+	font-family: 'Rubik', sans-serif;
+	letter-spacing: 1px;
+	font-size: 18px;
+	margin: 10px;
+	
+    text-transform: uppercase;
 }
-.nav-link {
-	font-size: 1.1em;!important </*более важный*/>
+.navbar-nav {
+	margin-right: 100px;
 }
