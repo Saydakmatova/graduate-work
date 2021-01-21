@@ -15,5 +15,23 @@
 }
 .d-block  {
 	width: 100%;
-	height: 865px;
+
 }
+.carusel-inner {
+	height: 500px;	
+}
+.carusel-inner img {
+	transform: translateY(-30%);
+	width: 100px;	
+	height: 100px;	
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 50px;	
+	transform: translateY(30%);
+}
+ .btn {
+ 	background-color: #53ae3b
+ }
+  
