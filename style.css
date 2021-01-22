@@ -29,7 +29,8 @@
 .carousel-caption {
 	position: absolute;
 	top: 50px;	
-	transform: translateY(30%);
+	transform: translateY(40%);
+
 }
  .btn {
  	background-color: #53ae3b
