@@ -1,8 +1,3 @@
-
-.navbar-brand img {
-	width: 120px;
-	margin-left: 100px;
-}
 .navbar-nav li {
 	font-family: 'Rubik', sans-serif;
 	letter-spacing: 1px;
@@ -17,9 +12,9 @@
 	width: 100%;
 
 }
-.carusel-inner {
+/*.carusel-inner {
 	height: 500px;	
-}
+}*/
 .carusel-inner img {
 	transform: translateY(-30%);
 	width: 100px;	
@@ -28,11 +23,20 @@
 
 .carousel-caption {
 	position: absolute;
-	top: 50px;	
+	top: -150px;	
+	left: 65%;
 	transform: translateY(40%);
+	
 
+}
+.button_text {
+	font-family: 'Marck Script', cursive;
+	font-size: 40px;
 }
  .btn {
  	background-color: #53ae3b
  }
-  
+/* .carousel-item img{
+ 	width: 100%;
+ 	height: 600px;
+ }*/

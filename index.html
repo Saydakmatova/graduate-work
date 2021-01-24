@@ -8,15 +8,17 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik:wght@300&display=swap" rel="stylesheet">
-	<title>site</title>
+	<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+	<title>FOODCOM | Пицца</title>
 </head>
 <body>
 	<!--menu-->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container-fluid">
-			<a href="#" class="navbar-brand"><img src="https://ld-wp73.template-help.com/wordpress/prod_19755/v2/wp-content/uploads/2018/06/bl-3-Copy-1.png"></a>
+			<a href="#" class="rd-navbar-brand brand">
+				<div class="brand-logo"><img src="https://ld-wp73.template-help.com/wordpress/prod_19755/v2/wp-content/uploads/2018/06/bl-3-Copy-1.png"></a></div>
 			<!--menu-phone(burger)-->
-			 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<!--открываетя по наж меню-->
@@ -38,61 +40,79 @@
 			</div>
 		</div>
 	</nav>
-	<!--And menu-phone(burger)-->
-	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-	  <ol class="carousel-indicators">
-	    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-	    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-	    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-	  </ol>
-	  <!--3 полоски-->
 
-	  <div class="carousel-inner">
-	    <div class="carousel-item active">
-	      <img src="img/slider_1.jpg" class="d-block w-100" alt="...">
-	      <div class="carousel-caption d-none d-md-block">
-	        <h1>Не ешь меньше,</h1>
-	        <h3>просто ешь по-настоящему.</h3>
-	        <button type="button" class="btn btn-success btn-lg">Заказать пиццу онлайн</button>
-	  
-	      </div>
-	    </div>
-	    <div class="carousel-item">
-	      <img src="img/slider_2.jpg" class="d-block w-100" alt="...">
-	      <div class="carousel-caption d-none d-md-block">
-	      	<h1>Не ешь меньше,</h1>
-	        <h3>просто ешь по-настоящему.</h3>
-	        <button type="button" class="btn btn-success btn-lg">Заказать пиццу онлайн</button>
-	      </div>
-	      </div>
-	    </div>
-	    <div class="carousel-item">
-	      <img src="img/slider_3.jpg" class="d-block w-100" alt="...">
-	      <div class="carousel-caption d-none d-md-block">
-	      <div class="carousel-caption d-none d-md-block">
-	        <h1>Не ешь меньше,</h1>
-	        <h3>просто ешь по-настоящему.</h3>
-	        <button type="button" class="btn btn-success btn-lg">Заказать пиццу онлайн</button>
-	      </div>
-	      </div>
-	    </div>
-	  </div>
-	  <!-- картинки-->
 
-	  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	    <span class="visually-hidden">Предыдущий</span>
-	  </a>
-	  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    <span class="visually-hidden">Следующий</span>
-	  </a>
+	<div class="container">
+		<!--And menu-phone(burger)-->
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+				<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+				<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+			</ol>
+			<!--3 полоски-->
+
+			<div class="carousel-inner">
+				<div class="carousel-item active col-md-12">
+					<img src="img/slider_1.jpg" class="d-block w-100 col-md-12" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<center>
+							<h3 class="button_text">Не ешь меньше,
+							просто ешь по-настоящему.</h3>
+						</center>
+						<button type="button" class="btn btn-success btn-lg">Заказать пиццу онлайн</button>
+
+					</div>
+				</div>
+				<div class="carousel-item col-md-12">
+					<img src="img/slider_2.jpg" class="d-block w-100 col-md-12" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<center>
+							<h3 class="button_text">Выбрать вкусно
+							 попробовать особенное.</h3>
+						</center>
+						<button type="button" class="btn btn-success btn-lg">Заказать пиццу онлайн</button>
+					</div>
+				</div>
+
+				<div class="carousel-item col-md-12">
+					<img src="img/slider_3.jpg" class="d-block w-100 col-md-12" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<center>
+							<h3 class="button_text">Особый вкус
+							и внешний вид.</h3>
+						</center>
+						<button type="button" class="btn btn-success btn-lg">Заказать пиццу онлайн</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
 	</div>
-	<!--slaider-->
+	<!-- картинки-->
 
+	<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden"></span>
+	</a>
+	<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden"></span>
+	</a>
+</div>
+<!--slaider-->
+<div class="container-fluid">
+	<div class="row text-center alert">
+		<div></div>
+		<p class="text-center">ДОБРО ПОЖАЛОВАТЬ В ПИЦЦУ</p>
+	</div>
 
-	<!-- JavaScript Bundle with Popper -->
-	<script src="js/bootstrap.min.js"></script>
+</div>
+
+</div>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="js/bootstrap.min.js"></script>
 </script>
 </body>
 </html>
