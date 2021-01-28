@@ -153,6 +153,7 @@ img {
     -webkit-box-pack: justify;
     justify-content: space-between;
     margin-bottom: 60px;
+    width: 292px;
 }
 .YvQPe {
     margin: 0px;
@@ -231,6 +232,10 @@ figure {
     background-color: rgb(255, 105, 0);
     color: rgb(255, 255, 255);
 }
+.hmteXa[data-type="secondary"] {
+    background-color: rgb(255, 240, 230);
+    color: rgb(209, 87, 0);
+}
 .hmteXa {
     outline: none;
     border: none;
@@ -258,3 +263,12 @@ button {
     align-items: flex-start;
     margin: 0em;
     font: 400 13.3333px Arial;
+}
+.lebRId .product-control {
+    flex: 0 0 auto;
+    height: 40px;
+    min-width: 120px;
+}
+.kKXOPU {
+	margin-bottom: 100px;
+}
