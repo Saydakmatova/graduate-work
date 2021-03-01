@@ -164,20 +164,11 @@ img {
     line-height: 20px;
     color: rgb(115, 121, 140);
     font-weight: 400;
+    height: 400px;
 }
-.eUjGRm {
-    margin: 0px;
-    position: relative;
-    width: 100%;
-}
-figure {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-}
-.eUjGRm .image {
+
+
+.YvQPe .image {
     width: 100%;
     position: relative;
     top: 0px;
@@ -194,32 +185,30 @@ figure {
     line-height: 24px;
     font-weight: 500;
 }
-.lebRId {
-    margin-top: 16px;
-    display: flex;
-}
+
 @media only screen and (max-width: 1439px)
 {
-.lebRId .product-control-price {
+.product-control-price {
     font-size: 16px;
 }
 }
 
-.lebRId .product-control-price {
+.product-control-price {
     flex: 1 1 auto;
     padding-right: 4px;
     font-size: 22px;
     color: rgb(0, 0, 0);
-    font-weight: 500;
+    font-weight: 400;
     line-height: 42px;
 }
 .money {
     white-space: nowrap;
+
 }
 .money__currency_on-the-right {
     margin-left: -2px;
 }
-.lebRId .product-control {
+ .product-control {
     flex: 0 0 auto;
     height: 40px;
     min-width: 120px;
@@ -265,8 +254,9 @@ button {
     align-items: flex-start;
     margin: 0em;
     font: 400 13.3333px Arial;
+    width: 200px;
 }
-.lebRId .product-control {
+.product-control {
     flex: 0 0 auto;
     height: 40px;
     min-width: 120px;
